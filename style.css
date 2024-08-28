@@ -55,6 +55,19 @@ header {
   }
 }
 
+
+@media (max-width: 634px) {
+  .grid-gallery {
+    grid-auto-rows: 500px;
+  }
+
+  .img-wrapper {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+
 .loader-hide {
   display: none;
 }

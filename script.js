@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const loader = document.getElementById('loader');
     const containerCity = document.getElementById('container-city');
+
+
   
     // Показать загрузчик
     loader.classList.remove('loader-hide');
@@ -31,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       })
       .catch(error => {
-        console.error('Error:', error);
+        console.error('Ошибка: ', error);
         loader.classList.add('loader-hide');
         containerCity.innerHTML = '<p>Failed to load weather data.</p>';
       });
