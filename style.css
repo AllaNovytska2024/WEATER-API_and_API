@@ -37,7 +37,7 @@ header {
   border: 9px solid goldenrod;
   border-bottom-color: gold;
   border-radius: 50%;
-  display: inline-block;
+  display: block;
   box-sizing: border-box;
   animation: rotation 1.2s linear infinite;
   position: absolute;
