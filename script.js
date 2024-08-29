@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Показать загрузчик
   loader.classList.remove("loader-hide");
-
+ 
   // Получение данных по широте, долготе и городу
   fetch("https://get.geojs.io/v1/ip/geo.json")
     .then((response) => response.json())
